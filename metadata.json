@@ -1,6 +1,8 @@
 {
-  "name": "KAIRØ DISTRICT | Gen Z Streetwear",
+  "name": "Muslim | Gen Z Streetwear",
   "description": "Premium Gen Z streetwear clothing brand and e-commerce experience with raw aesthetics and Egyptian cotton craft.",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }
