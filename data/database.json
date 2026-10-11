@@ -1,0 +1,545 @@
+{
+  "users": [
+    {
+      "id": "usr_admin_mustafa",
+      "name": "Mustafa",
+      "email": "admin@kairodistrict.com",
+      "phone": "+201000000000",
+      "passwordHash": "e18dfcd78cd90434f88c0e275a4bb9460ad7f3fa04ab76f1527e31ca37f68d4786ac7d843d5874525a960fffca1c09677dae5644a4e823143a7061b418add222",
+      "salt": "f653895eb2f8e111a60b689c0d6a5e67",
+      "role": "admin",
+      "mustChangePassword": false,
+      "whatsappConsent": true,
+      "createdAt": "2026-10-11T13:45:31.535Z"
+    },
+    {
+      "id": "usr_1791726366417_gi1as",
+      "name": "Youssef Nabil",
+      "email": "youssef@test.com",
+      "phone": "+201012345678",
+      "passwordHash": "d2b6fb74fbbd13eeef33dbb9b60707b86facc5e0094b5c9d9a068b8f957db58abdecf5e9beb5b099f4c5afd0887ae47eb12221cd188612e7e107f04af7348fb2",
+      "salt": "a4d46e11b7c971a64fcdf37542087b4b",
+      "role": "customer",
+      "provider": "local",
+      "whatsappConsent": true,
+      "createdAt": "2026-10-11T13:46:06.417Z"
+    },
+    {
+      "id": "usr_g_1791726861848",
+      "name": "Cairo Streetwear Fan",
+      "email": "cairo.shopper@gmail.com",
+      "passwordHash": "6e4f574fbe0418c0e8873f48b4625a5f31606bf26b63c925f188b00a0f259ef67921a5e043afd488850f6086e56c6fdf38c68e01c5c793c093babab793aa5180",
+      "salt": "bf6b2114e0a308b1ac4d377e68ab88fe",
+      "role": "customer",
+      "provider": "google",
+      "whatsappConsent": false,
+      "createdAt": "2026-10-11T13:54:21.848Z"
+    },
+    {
+      "id": "usr_g_1791727264918",
+      "name": "Mostafa Hussein",
+      "email": "mostafahessein695@gmail.com",
+      "passwordHash": "d879fa7ba0a50edd9e95e182f851821e42724df55b473682cf6cfb9051cfb76862cdb78e40c1d584918cbe4c06b7c81526d4d0196af8b2065e428ab759681a54",
+      "salt": "2ac55703b5ed5277051bf9ff08dbd5cf",
+      "role": "customer",
+      "provider": "google",
+      "whatsappConsent": false,
+      "createdAt": "2026-10-11T14:01:04.918Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat_hoodies",
+      "name": "Hoodies & Sweatshirts",
+      "slug": "hoodies"
+    },
+    {
+      "id": "cat_tshirts",
+      "name": "T-Shirts & Tops",
+      "slug": "t-shirts"
+    },
+    {
+      "id": "cat_pants",
+      "name": "Pants & Cargos",
+      "slug": "pants"
+    },
+    {
+      "id": "cat_accessories",
+      "name": "Accessories & Bags",
+      "slug": "accessories"
+    },
+    {
+      "id": "cat_headwear",
+      "name": "Headwear",
+      "slug": "headwear"
+    }
+  ],
+  "collections": [
+    {
+      "id": "col_cyber20",
+      "name": "District Cyber 20",
+      "slug": "district-cyber-20",
+      "season": "Drop 01 / SS26"
+    },
+    {
+      "id": "col_mirage",
+      "name": "Electric Mirage",
+      "slug": "electric-mirage",
+      "season": "Summer 2026"
+    },
+    {
+      "id": "col_essentials",
+      "name": "Heavyweight Core",
+      "slug": "core-essentials",
+      "season": "All-Year"
+    }
+  ],
+  "products": [
+    {
+      "id": "prod_hoodie_01",
+      "name": "Hoodie box fit",
+      "slug": "cyan-horizon-480gsm-oversized-hoodie",
+      "description": "Engineered from ultra-heavyweight 480 GSM unbrushed Egyptian cotton French terry. Cut in an aggressive oversized boxy silhouette with dropped shoulders, raw twin-needle stitching, and custom electric blue typography.",
+      "price": 1000,
+      "salePrice": 1000,
+      "category": "Hoodies & Sweatshirts",
+      "collection": "District Cyber 20",
+      "images": [
+        "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcS1UEZxGy31U8AkDDoHCheU3JAOJQrFDosR_x1BaFATk0XXE_u8p4MSHrtOCNnC4URH_hL-bsA7MXGAZCM4pyVQ-1WGCjyZtTwbgOSNELMM8rBd79oMwlCw4-fhGV4KpPzvfyP3x55-&usqp=CAc"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Washed Charcoal",
+        "Electric Cobalt"
+      ],
+      "variants": [
+        {
+          "size": "S",
+          "color": "Washed Charcoal",
+          "stock": 11
+        },
+        {
+          "size": "M",
+          "color": "Washed Charcoal",
+          "stock": 24
+        },
+        {
+          "size": "L",
+          "color": "Washed Charcoal",
+          "stock": 17
+        },
+        {
+          "size": "XL",
+          "color": "Washed Charcoal",
+          "stock": 8
+        },
+        {
+          "size": "XXL",
+          "color": "Washed Charcoal",
+          "stock": 5
+        },
+        {
+          "size": "M",
+          "color": "Electric Cobalt",
+          "stock": 15
+        },
+        {
+          "size": "L",
+          "color": "Electric Cobalt",
+          "stock": 10
+        }
+      ],
+      "totalStock": 90,
+      "status": "Published",
+      "isFeatured": true,
+      "isNewArrival": true,
+      "details": [
+        "480 GSM 100% Egyptian combed cotton",
+        "Enzyme & mineral vintage washed",
+        "Heavy-gauge double-layered hood without drawstrings",
+        "Reinforced rib cuffs and hem",
+        "Screen-printed with water-based electric cyan ink"
+      ],
+      "createdAt": "2026-10-11T13:45:31.535Z"
+    },
+    {
+      "id": "prod_cargo_02",
+      "name": "SHADOW OPERATOR Modular Parachute Pants",
+      "slug": "shadow-operator-modular-parachute-pants",
+      "description": "Multi-pocket tactical streetwear pants constructed from durable high-density nylon ripstop with weather-resistant coating. Features adjustable magnetic snap straps, articulated knee darts, and shock-cord bungee ankle toggles.",
+      "price": 2200,
+      "salePrice": 1950,
+      "category": "Pants & Cargos",
+      "collection": "District Cyber 20",
+      "images": [
+        "/src/assets/images/product_cargo_pants_1791725327850.jpg"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Matte Black",
+        "Shadow Slate"
+      ],
+      "variants": [
+        {
+          "size": "S",
+          "color": "Matte Black",
+          "stock": 14
+        },
+        {
+          "size": "M",
+          "color": "Matte Black",
+          "stock": 20
+        },
+        {
+          "size": "L",
+          "color": "Matte Black",
+          "stock": 16
+        },
+        {
+          "size": "XL",
+          "color": "Matte Black",
+          "stock": 6
+        },
+        {
+          "size": "M",
+          "color": "Shadow Slate",
+          "stock": 12
+        },
+        {
+          "size": "L",
+          "color": "Shadow Slate",
+          "stock": 8
+        }
+      ],
+      "totalStock": 76,
+      "status": "Published",
+      "isFeatured": true,
+      "isNewArrival": false,
+      "details": [
+        "High-density 240 GSM water-repellent nylon ripstop",
+        "6 modular utility cargo compartments with waterproof zippers",
+        "Built-in quick-release cobra webbing belt",
+        "Elasticated ankle cuffs with electric blue toggle locks",
+        "Relaxed tapered silhouette"
+      ],
+      "createdAt": "2026-10-11T13:45:31.535Z"
+    },
+    {
+      "id": "prod_tee_03",
+      "name": "ELECTRIC CHAOS 280GSM Boxy Graphic Tee",
+      "slug": "electric-chaos-280gsm-boxy-graphic-tee",
+      "description": "The definitive Gen Z streetwear tee. 280 GSM heavyweight jersey woven in Alexandria from long-staple Egyptian cotton. Relaxed dropped-shoulder boxy cut with ribbed crewneck collar and cyber-circuit electric cyan print.",
+      "price": 1250,
+      "salePrice": 990,
+      "category": "T-Shirts & Tops",
+      "collection": "Electric Mirage",
+      "images": [
+        "/src/assets/images/product_acid_tee_1791725337324.jpg"
+      ],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Vintage Stone Charcoal",
+        "Chalk White"
+      ],
+      "variants": [
+        {
+          "size": "XS",
+          "color": "Vintage Stone Charcoal",
+          "stock": 10
+        },
+        {
+          "size": "S",
+          "color": "Vintage Stone Charcoal",
+          "stock": 25
+        },
+        {
+          "size": "M",
+          "color": "Vintage Stone Charcoal",
+          "stock": 35
+        },
+        {
+          "size": "L",
+          "color": "Vintage Stone Charcoal",
+          "stock": 30
+        },
+        {
+          "size": "XL",
+          "color": "Vintage Stone Charcoal",
+          "stock": 15
+        },
+        {
+          "size": "XXL",
+          "color": "Vintage Stone Charcoal",
+          "stock": 8
+        },
+        {
+          "size": "M",
+          "color": "Chalk White",
+          "stock": 20
+        },
+        {
+          "size": "L",
+          "color": "Chalk White",
+          "stock": 15
+        }
+      ],
+      "totalStock": 158,
+      "status": "Published",
+      "isFeatured": true,
+      "isNewArrival": true,
+      "details": [
+        "280 GSM heavyweight carded Egyptian cotton",
+        "Single jersey knit with acid stone wash finish",
+        "Oversized boxy streetwear drape",
+        "High 1.25\" thick ribbed collar that holds shape",
+        "Distressed screenprint graphic in cyan 01"
+      ],
+      "createdAt": "2026-10-11T13:45:31.535Z"
+    },
+    {
+      "id": "prod_bag_04",
+      "name": "TACTICAL RIG Ballistic Crossbody Bag",
+      "slug": "tactical-rig-ballistic-crossbody-bag",
+      "description": "Multi-configuration industrial chest rig and crossbody bag made from 1000D Cordura nylon. Equipped with matte black anodized hardware, electric blue tactical webbing, and dual zippered organizing pockets.",
+      "price": 1600,
+      "salePrice": 1400,
+      "category": "Accessories & Bags",
+      "collection": "District Cyber 20",
+      "images": [
+        "/src/assets/images/product_crossbody_bag_1791725347793.jpg"
+      ],
+      "sizes": [
+        "One Size"
+      ],
+      "colors": [
+        "Stealth Black",
+        "Electric Blue Accent"
+      ],
+      "variants": [
+        {
+          "size": "One Size",
+          "color": "Stealth Black",
+          "stock": 45
+        },
+        {
+          "size": "One Size",
+          "color": "Electric Blue Accent",
+          "stock": 30
+        }
+      ],
+      "totalStock": 75,
+      "status": "Published",
+      "isFeatured": true,
+      "isNewArrival": true,
+      "details": [
+        "1000D ballistic nylon exterior shell",
+        "YKK Aquaguard weather-sealed dual zippers",
+        "Modular chest harness convertibility",
+        "Padded air-mesh back panel for heat ventilation",
+        "Custom laser-etched KAIRØ zinc alloy buckles"
+      ],
+      "createdAt": "2026-10-11T13:45:31.535Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord_1791726797484",
+      "orderNumber": "KD-78207",
+      "userId": null,
+      "customerName": "Mostafa Hussein",
+      "customerEmail": "mostafahessein695@gmail.com",
+      "customerPhone": "+201226256002",
+      "shippingAddress": {
+        "governorate": "Cairo",
+        "city": "ANCHORAGE",
+        "street": "Los Angeles",
+        "buildingApartment": "Egypt",
+        "notes": ""
+      },
+      "items": [
+        {
+          "productId": "prod_hoodie_01",
+          "productName": "Hoodie box fit",
+          "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcS1UEZxGy31U8AkDDoHCheU3JAOJQrFDosR_x1BaFATk0XXE_u8p4MSHrtOCNnC4URH_hL-bsA7MXGAZCM4pyVQ-1WGCjyZtTwbgOSNELMM8rBd79oMwlCw4-fhGV4KpPzvfyP3x55-&usqp=CAc",
+          "size": "S",
+          "color": "Washed Charcoal",
+          "quantity": 1,
+          "unitPrice": 1000,
+          "totalPrice": 1000
+        }
+      ],
+      "subtotal": 1000,
+      "discountAmount": 0,
+      "shippingFee": 60,
+      "totalAmount": 1060,
+      "paymentMethod": "cod",
+      "status": "Processing",
+      "createdAt": "2026-10-11T13:53:17.484Z",
+      "updatedAt": "2026-10-11T13:53:31.543Z"
+    },
+    {
+      "id": "ord_1791726389338",
+      "orderNumber": "KD-27810",
+      "userId": null,
+      "customerName": "Youssef Nabil",
+      "customerEmail": "youssef@test.com",
+      "customerPhone": "+201012345678",
+      "shippingAddress": {
+        "governorate": "Cairo",
+        "city": "Zamalek",
+        "street": "26th of July St, Apt 3B"
+      },
+      "items": [
+        {
+          "productId": "prod_hoodie_01",
+          "productName": "CYAN HORIZON 480GSM Oversized Hoodie",
+          "image": "/src/assets/images/product_hoodie_heavyweight_1791725317370.jpg",
+          "size": "L",
+          "color": "Washed Charcoal",
+          "quantity": 1,
+          "unitPrice": 2150,
+          "totalPrice": 2150
+        }
+      ],
+      "subtotal": 2150,
+      "discountAmount": 323,
+      "discountCode": "GENZ15",
+      "shippingFee": 60,
+      "totalAmount": 1887,
+      "paymentMethod": "cod",
+      "status": "Delivered",
+      "createdAt": "2026-10-11T13:46:29.338Z",
+      "updatedAt": "2026-10-11T13:54:03.997Z"
+    }
+  ],
+  "discounts": [
+    {
+      "id": "disc_genz15",
+      "code": "GENZ15",
+      "percentage": 15,
+      "minSpend": 1000,
+      "isActive": true,
+      "usedCount": 15
+    },
+    {
+      "id": "disc_welcome10",
+      "code": "WELCOME10",
+      "percentage": 10,
+      "minSpend": 500,
+      "isActive": true,
+      "usedCount": 38
+    },
+    {
+      "id": "disc_district20",
+      "code": "DISTRICT20",
+      "percentage": 20,
+      "minSpend": 2500,
+      "isActive": true,
+      "usedCount": 7
+    }
+  ],
+  "settings": {
+    "brandName": "MUSLIM",
+    "brandSlogan": "Raw Architectural Streetwear Crafted from Egyptian Heavyweight Cotton",
+    "logoText": "MUSLIM",
+    "announcementBar": "⚡ SS26 DROP 01 LIVE · FREE SHIPPING IN EGYPT OVER EGP 2,500 · CAIRO SAME-DAY DELIVERY",
+    "heroHeadline": "DISTRICT CYBER 20 // SS26",
+    "heroSubheadline": "Engineered heavyweight garments tailored for underground night culture. Handcrafted in Egypt from 480GSM combed cotton with industrial finishes.",
+    "promoBannerTitle": "THE ARCHITECTURAL CUT",
+    "promoBannerSubtitle": "Every piece is produced in strictly limited runs of 100 units. No re-stocks. Never mass produced.",
+    "currency": "EGP",
+    "supportPhone": "+20 100 892 4410",
+    "supportEmail": "contact@kairodistrict.com",
+    "address": "Zamalek District, Cairo, Egypt",
+    "shippingRates": {
+      "cairoGiza": 60,
+      "alexandria": 75,
+      "deltaCanal": 85,
+      "upperEgypt": 110,
+      "freeShippingThreshold": 2500
+    },
+    "whatsappIntegrationConfigured": false,
+    "resendIntegrationConfigured": false
+  },
+  "notifications": [
+    {
+      "id": "notif_1791727264919_4iqdr",
+      "channel": "email",
+      "recipient": "mostafahessein695@gmail.com",
+      "subject": "Welcome to MUSLIM // Community Protocol Active",
+      "content": "Welcome to MUSLIM!\n    Thank you for joining our community, Mostafa Hussein.\n    We're excited to have you with us. Discover your raw architectural style and explore our latest limited-run collections.\n    \n    Exclusive Member Perk: Use code WELCOME10 for 10% off your first streetwear drop.\n    \n    Curated in Cairo, Egypt.\n    MUSLIM Team",
+      "status": "delivered_simulated",
+      "providerNote": "Simulated delivery recorded in local notification dispatch log. To enable live email dispatch, configure RESEND_API_KEY in server environment.",
+      "createdAt": "2026-10-11T14:01:04.919Z"
+    },
+    {
+      "id": "notif_1791726861849_9rpzm",
+      "channel": "email",
+      "recipient": "cairo.shopper@gmail.com",
+      "subject": "Welcome to MUSLIM // Community Protocol Active",
+      "content": "Welcome to MUSLIM!\n    Thank you for joining our community, Cairo Streetwear Fan.\n    We're excited to have you with us. Discover your raw architectural style and explore our latest limited-run collections.\n    \n    Exclusive Member Perk: Use code WELCOME10 for 10% off your first streetwear drop.\n    \n    Curated in Cairo, Egypt.\n    MUSLIM Team",
+      "status": "delivered_simulated",
+      "providerNote": "Simulated delivery recorded in local notification dispatch log. To enable live email dispatch, configure RESEND_API_KEY in server environment.",
+      "createdAt": "2026-10-11T13:54:21.849Z"
+    },
+    {
+      "id": "notif_ord_1791726797491_xwmie",
+      "channel": "email",
+      "recipient": "mostafahessein695@gmail.com",
+      "subject": "Order Confirmed #KD-78207 — MUSLIM",
+      "content": "Hello Mostafa Hussein, your order #KD-78207 (1 items, total EGP 1,060) has been received and is being prepared by our studio team in Cairo. We will notify you once shipped.",
+      "status": "delivered_simulated",
+      "providerNote": "Simulated delivery logged. Live dispatch active once RESEND_API_KEY is configured.",
+      "createdAt": "2026-10-11T13:53:17.491Z"
+    },
+    {
+      "id": "notif_ord_1791726389372_vi737",
+      "channel": "email",
+      "recipient": "youssef@test.com",
+      "subject": "Order Confirmed #KD-27810 — KAIRØ DISTRICT",
+      "content": "Hello Youssef Nabil, your order #KD-27810 (1 items, total EGP 1,887) has been received and is being prepared by our studio team in Cairo. We will notify you once shipped.",
+      "status": "delivered_simulated",
+      "providerNote": "Simulated delivery logged. Live dispatch active once RESEND_API_KEY is configured.",
+      "createdAt": "2026-10-11T13:46:29.372Z"
+    },
+    {
+      "id": "notif_wa_1791726366419_fvvrl",
+      "channel": "whatsapp",
+      "recipient": "+201012345678",
+      "subject": "WhatsApp Welcome Notification",
+      "content": "Welcome to KAIRØ DISTRICT! Thank you for joining our community, Youssef Nabil. We're excited to have you with us. Discover your style and explore our latest collection: https://kairodistrict.com · Use code WELCOME10 for 10% off.",
+      "status": "pending_setup",
+      "providerNote": "WhatsApp Business API is pending configuration on the server. Set WHATSAPP_API_TOKEN and WHATSAPP_PHONE_NUMBER_ID in environment variables to dispatch live WhatsApp messages.",
+      "createdAt": "2026-10-11T13:46:06.419Z"
+    },
+    {
+      "id": "notif_1791726366418_8femq",
+      "channel": "email",
+      "recipient": "youssef@test.com",
+      "subject": "Welcome to KAIRØ DISTRICT // Community Protocol Active",
+      "content": "Welcome to KAIRØ DISTRICT!\n    Thank you for joining our community, Youssef Nabil.\n    We're excited to have you with us. Discover your raw architectural style and explore our latest limited-run collections.\n    \n    Exclusive Member Perk: Use code WELCOME10 for 10% off your first streetwear drop.\n    \n    Curated in Cairo, Egypt.\n    KAIRØ DISTRICT Team",
+      "status": "delivered_simulated",
+      "providerNote": "Simulated delivery recorded in local notification dispatch log. To enable live email dispatch, configure RESEND_API_KEY in server environment.",
+      "createdAt": "2026-10-11T13:46:06.418Z"
+    }
+  ],
+  "subscribers": []
+}
